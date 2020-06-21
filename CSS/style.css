@@ -411,6 +411,13 @@ strong {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+icon-send {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
 .copyright {
   padding-top: 18px;
   padding-bottom: 21px;
@@ -494,7 +501,10 @@ strong {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-
+.card-item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
 .card-item:nth-child(3n) {
   margin-right: 0px;
 }
