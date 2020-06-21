@@ -334,6 +334,7 @@ p {
   border-radius: 50px;
 }
 .social-app .icon {
+  display: inline-flex;
   width: 20px;
   height: 20px;
 }
