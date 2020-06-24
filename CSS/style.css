@@ -203,9 +203,10 @@ button:focus {
   content: "";
   height: 120px;
   background-color: #f5f4fa;
-  background-size: auto;
+  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 30px;
 }
 
 .icon-antenna::before {
@@ -325,7 +326,7 @@ p {
   margin-left: 10px;
 }
 
-.social-app .item {
+.social {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +340,7 @@ p {
   height: 20px;
 }
 
-.social-app .item:hover {
+.social:hover {
   background: var(--accent-color);
   --color3: var(--primary-white-color);
 }
@@ -348,7 +349,7 @@ p {
   display: flex;
   align-items: center;
 }
-.clients .item {
+.clients a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +362,7 @@ p {
   margin-left: 30px;
 }
 
-.clients .item:hover {
+.clients a:hover {
   border: 2px solid var(--accent-color);
   --color3: var(--accent-color);
   cursor: pointer;
@@ -375,7 +376,8 @@ footer {
 footer .social-app {
   margin-left: 0;
 }
-footer .item {
+
+footer .social {
   display: inline-flex;
   justify-content: center;
   align-items: center;
